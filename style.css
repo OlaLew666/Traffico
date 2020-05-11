@@ -6,6 +6,7 @@
 }
 body {
   background-color: #fef8f5;
+  font-family: Rubik;
 }
 
 .header-width-modificator {
@@ -21,19 +22,17 @@ body {
 
 .page-header .menu {
   list-style: none;
-  font-family: Rubik;
   font-size: 16px;
   letter-spacing: 0.8px;
   color: #ffffff;
   cursor: pointer;
+  margin-left: 250px;
 }
 
 .page-header .menu-item {
   display: inline-block;
 }
-.page-header .about-item {
-  margin-left: 250px;
-}
+
 .page-header .how-item {
   margin-left: 97px;
 }
@@ -65,7 +64,7 @@ body {
 }
 
 .starter .main-title {
-  width: 741px;
+  width: 740px;
   margin-top: 190px;
   font-family: DM Serif Display;
   font-size: 100px;
@@ -77,9 +76,7 @@ body {
   margin-top: 60px;
   background-color: #ee4d47;
   border-radius: 5px;
-  width: 220px;
-  height: 60px;
-  font-family: Rubik;
+
   font-size: 16px;
   letter-spacing: 0.8px;
   color: #ffffff;
@@ -97,9 +94,7 @@ body {
 
 .about-us {
   display: flex;
-  width: 100%;
-  height: 550px;
-  margin-top: 107px;
+  margin-top: 105px;
 }
 .about-us .main-width-modificator {
   width: 1120px;
@@ -110,8 +105,7 @@ body {
 }
 
 .about-us .title-about-us {
-  margin-top: 74px;
-  font-family: Rubik;
+  margin-top: 75px;
   font-size: 24px;
   line-height: 40px;
   letter-spacing: 1.6px;
@@ -120,9 +114,7 @@ body {
 
 .about-us .first-about-us {
   width: 470px;
-  height: 156px;
   margin-top: 40px;
-  font-family: Rubik;
   font-weight: 300;
   font-size: 18px;
   line-height: 40px;
@@ -131,7 +123,6 @@ body {
 
 .about-us .block-for-second {
   width: 570px;
-  height: 160px;
   margin-top: 70px;
   background: rgba(252, 221, 212, 0.4);
   border-left: 10px solid #ed4d47;
@@ -140,7 +131,6 @@ body {
 
 .about-us .second-about-us {
   padding: 30px 55px;
-  font-family: Rubik;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
@@ -150,7 +140,6 @@ body {
 .how-apply {
   display: flex;
   width: 100%;
-  height: 550px;
   margin-top: 107px;
 }
 
@@ -164,8 +153,6 @@ body {
 
 .how-apply .title-how-apply {
   margin-top: 74px;
-  margin-left: 670px;
-  font-family: Rubik;
   font-size: 24px;
   line-height: 40px;
   letter-spacing: 1.6px;
@@ -174,10 +161,7 @@ body {
 
 .how-apply .text-how-apply {
   width: 470px;
-  height: 156px;
-  margin-left: 670px;
   margin-top: 40px;
-  font-family: Rubik;
   font-weight: 300;
   font-size: 18px;
   line-height: 40px;
