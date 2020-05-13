@@ -58,7 +58,7 @@ body {
   background-position: center top;
 }
 
-.starter .main-width-modificator {
+.main-width-modificator {
   width: 1120px;
   margin: 0 auto;
 }
@@ -76,7 +76,8 @@ body {
   margin-top: 60px;
   background-color: #ee4d47;
   border-radius: 5px;
-
+  padding: 25px;
+  font-family: Rubik;
   font-size: 16px;
   letter-spacing: 0.8px;
   color: #ffffff;
@@ -88,22 +89,15 @@ body {
 }
 
 .starter .anima-car {
-  padding-top: 180px;
+  padding-top: 179px;
   margin-left: -240px;
 }
 
-.about-us {
-  display: flex;
-  margin-top: 105px;
-}
 .about-us .main-width-modificator {
-  width: 1120px;
-  margin: 0 auto;
-  background-image: url(../traffico/img/about-us-bg.png);
-  background-repeat: no-repeat;
-  background-position: right top;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
 }
-
 .about-us .title-about-us {
   margin-top: 75px;
   font-size: 24px;
@@ -136,23 +130,28 @@ body {
   line-height: 36px;
   color: #402b2b;
 }
-
-.how-apply {
-  display: flex;
-  width: 100%;
-  margin-top: 107px;
+.about-us .about-us-bg {
+  background-image: url(../traffico/img/about-us-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 530px;
+  height: 455px;
 }
 
 .how-apply .main-width-modificator {
-  width: 1120px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 260px;
+}
+
+.how-apply .how-apply-bg {
   background-image: url(../traffico/img/how-to-apply-bg.png);
   background-repeat: no-repeat;
-  background-position: left top;
+  width: 507px;
+  height: 432px;
 }
 
 .how-apply .title-how-apply {
-  margin-top: 74px;
   font-size: 24px;
   line-height: 40px;
   letter-spacing: 1.6px;
@@ -166,4 +165,84 @@ body {
   font-size: 18px;
   line-height: 40px;
   color: #402b2b;
+}
+
+.faq {
+  margin: 375px;
+}
+
+.faq .main-width-modificator {
+  display: flex;
+  position: relative;
+  width: 1180px;
+}
+
+.faq .faq-bgcolor {
+  background-color: #fdede8;
+  border-top-left-radius: 170px;
+  margin-left: 140px;
+  margin-top: -100px;
+  height: calc(100% + 210px);
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.faq .title-first {
+  margin-top: 135px;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 1.6px;
+  color: #ee4d47;
+}
+
+.faq .title-second {
+  margin-top: 45px;
+  font-weight: normal;
+  width: 550px;
+  font-family: DM Serif Display;
+  font-size: 48px;
+  line-height: 140%;
+  color: #402b2b;
+}
+
+.faq .faq-bg-man {
+  background-image: url(../traffico/img/faq-bg.png);
+  background-repeat: no-repeat;
+  margin-left: -80px;
+  width: 710px;
+  height: 500px;
+}
+
+.faq .faq-list {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.faq-list .faq-item {
+  width: 550px;
+  height: 250px;
+  background: #fff7f5;
+  box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+  border-radius: 10px;
+}
+
+.faq-list .faq-item-tittle-inner {
+  height: 90px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+  font-size: 18px;
+  line-height: 30px;
+  color: #402b2b;
+  padding: 30px 115px 30px 35px;
+}
+
+.faq-list .faq-item-body {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #402b2b;
+  padding: 40px 35px 0 35px;
 }
